@@ -18,7 +18,7 @@ cart
 catalogue
 
  [localhost]
- localhos
+ localhost
 
  [localhost:vars]
  Course="DevOps From Inventory"
