@@ -1,5 +1,5 @@
 - name: Learning Conditions in YAML
-  hosts: localhost
+  hosts: localhos
   become: yes
   tasks:
   - name: Check if roboshop user exists
