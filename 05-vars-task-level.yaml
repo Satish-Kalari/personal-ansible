@@ -1,0 +1,14 @@
+- name: Learing Variables in Ansible
+  hosts: localhost
+  vars: 
+    Course: "DevOps"
+    Trainer: "Sivakumar"
+    Duration: "110Hrs"
+  tasks:
+    - name: check variables
+      vars: 
+        Course: "DevOps With AWS"
+        Trainer: "Sivakumar Satish"
+        Duration: "220Hrs"
+      ansible.builtin.debug:
+        msg: "Hi I am learning {{Course}}, Trainre is {{Trainer}}, Duration {{Duration}}"
