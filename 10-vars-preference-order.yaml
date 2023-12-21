@@ -1,5 +1,5 @@
 - name: Learning variables pickup prefrence in YAML
-  hosts: localhot
+  hosts: localhost
   vars_files:
   - variables.yaml
   vars_prompt:
