@@ -1,3 +1,4 @@
+#muiltiple playboos in a single playbook
 - name: PLAY1
   hosts: localhost
   tasks:
