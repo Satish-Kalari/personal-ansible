@@ -18,7 +18,7 @@
   - name: Create User
     ansible.builtin.user:
       name: roboshop
-    when: user.rx !=0 #when in sonction comman in ansible.  
+    when: user.rc !=0 #when in sonction comman in ansible.  
 
 # - name: conditions
 #   hosts: localhost
