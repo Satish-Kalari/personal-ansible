@@ -1,5 +1,5 @@
 - name: install and run nginx
-  host: web
+  hosts: web
   becone: yes #this option will give root acess
   tasks:
     - name: installing nginx
