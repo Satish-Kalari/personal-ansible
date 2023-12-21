@@ -2,8 +2,8 @@
   hosts: localhost
   tasks:
     - name: PLAY 1 TASK 1
-      ansible.buitlin.debug
+      ansible.buitlin.debug:
         msg: "Hello from PLAY 1 TASK1"
     - name: PLAY 2 TASK 2
-      ansible.buitlin.debug
+      ansible.buitlin.debug:
         msg: "Hello from PLAY 2 TASK2"
