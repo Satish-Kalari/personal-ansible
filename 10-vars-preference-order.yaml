@@ -15,8 +15,15 @@
   tasks:
     - name: variable prefrence
       vars:  
-        PERSON: "Satish From Task"
-        WISHES: "Hello From Task"
+        # PERSON: "Satish From Task"
+        # WISHES: "Hello From Task"
       ansible.builtin.debug:
         msg: "{{PERSON}}, {{WISHES}}"
 
+#1. CMD
+#2. task
+#3. File
+#4. prompt
+#5. play
+#6. inventory
+#7. roles
