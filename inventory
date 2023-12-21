@@ -21,6 +21,6 @@ catalogue
  localhost
 
  [localhost:vars]
- Course="DevOps From Inventry"
- Trainer="Sivakumar From Inventry"
- Duration="110Hrs From Inventry"
+ Course="DevOps From Inventory"
+ Trainer="Sivakumar From Inventory"
+ Duration="110Hrs From Inventory"

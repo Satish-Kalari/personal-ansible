@@ -1,0 +1,6 @@
+- name: Leaning thow to get variables from arguments
+  hosts: localhost
+  tasks:
+    - name: check variables
+      ansible.builtin.debug:
+        msg: "Hello {{PERSON}}", Good {{WISHES}}
