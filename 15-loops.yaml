@@ -2,13 +2,13 @@
   hosts: localhost
   become: yes # giving root acess
   tasks:
-    - name: Installing Git, Postfix & mysql
+    - name: Installing Git & nginx and uninstalling Postfix & mysql
       ansible.builtin.package:
         name: "{{item.name}}" # item is default keyword for loop
         state: "{{item.state}}" # present mean install, absent mean uninstall 
-        status: "{{item.status}}"
+        
       loop:
       - {name: 'git', state: 'present'}
       - {name: 'postfix', state: 'absent'}
       - {name: 'mysql', state: 'absent'}
-      - {name: 'nginx', state: 'present', status: 'started'}
+      - {name: 'nginx', state: 'present'}
