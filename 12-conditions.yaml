@@ -1,7 +1,7 @@
 - name: Learning Conditions in YAML
   hosts: localhost
   become: yes
-  task:
+  tasks:
   - name: Check if robosho user exists
     ansible.builtin.command:
     register: user #user is a variable name
