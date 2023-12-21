@@ -14,8 +14,11 @@
   - name: print exit ststus or return code
     ansible.builtin.debug:
       msg: "Status is: {{user.rc}}" #rc is exit status for ansible 
- 
 
+  - name: Create User
+    ansible.builtin.user
+      name: roboshop
+    when: user.rx !=0 #when in sonction comman in ansible.  
 
 # - name: conditions
 #   hosts: localhost
