@@ -1,0 +1,6 @@
+- name: Learning how to get variables from inventory
+  hosts: localhost
+   tasks:
+    - name: Getting vars from inventory
+      ansible.builtin.debug:
+        msg: "Hi I am learning {{Course}}, Trainre is {{Trainer}}, Duration {{Duration}}"
