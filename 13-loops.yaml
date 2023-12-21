@@ -1,0 +1,10 @@
+- name: Leaning Loops In ansible
+  hosts: localhosts
+  taska:
+    - name: print persons
+      ansible.builtin.debug:
+        msg: "Hello {{item}}" # item is default keyword for loop
+      loop:
+      - Satish
+      - Apeksha
+      - Sarvag 
