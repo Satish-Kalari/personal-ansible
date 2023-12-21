@@ -1,0 +1,5 @@
+- name: Ping Playbook
+  host: localhost
+  taks:
+  - name: Ping the server
+    ansoble.buildin.ping:
