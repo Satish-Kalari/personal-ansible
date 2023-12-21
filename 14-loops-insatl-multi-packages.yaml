@@ -4,10 +4,9 @@
   tasks:
     - name: Installing Git, Postfix & mysql
       ansible.builtin.packages:
-        name: {{item}} # item is default keyword for loop
+        name: "{{item}}"" # item is default keyword for loop
         state: present # present mean install
       loops:
       - git
       - postfix
       - mysql
-    
