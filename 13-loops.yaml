@@ -1,5 +1,5 @@
 - name: Leaning Loops In Ansible
-  hosts: localhosts
+  hosts: localhost
   tasks:
     - name: print persons
       ansible.builtin.debug:
