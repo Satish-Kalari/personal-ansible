@@ -16,7 +16,7 @@
       msg: "Status is: {{user.rc}}" #rc is exit status for ansible 
 
   - name: Create User
-    ansible.builtin.user
+    ansible.builtin.user:
       name: roboshop
     when: user.rx !=0 #when in sonction comman in ansible.  
 
