@@ -1,5 +1,5 @@
 - name: Ping Playbook
   hosts: web
-  taks:
+  tasks:
   - name: Ping the server
     ansoble.buildin.ping:
