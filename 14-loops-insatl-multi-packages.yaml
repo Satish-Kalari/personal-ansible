@@ -3,7 +3,7 @@
   become: yes # giving root acess
   tasks:
     - name: Installing Git, Postfix & mysql
-      ansible.builtin.packages:
+      ansible.builtin.package:
         name: "{{item}}" # item is default keyword for loop
         state: present # present mean install
       loop:
